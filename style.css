@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    background: linear-gradient( #000033 0%,  #00ffff 100%);
+    padding-top: 800px;
+}
+img{
+    width: 30%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 900px;
+    color: deeppink;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+        
+    
+}
+
+.section1{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    font-family: 'Akaya Telivigala', cursive;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    color: deeppink;
+    
+}
+.links:hover{
+    background-color: aqua;
+}
+html{
+    scroll-behavior: smooth;
+}
+.article:hover{
+    color: blue;
+}
